@@ -1,0 +1,5 @@
+open
+get State:/Network/Service/yourvpnconnection/DNS
+d.add DomainName fierylab.com
+d.add DomainName dev.fierylab.com
+set State:/Network/Service/yourvpnconnection/DNS
